@@ -1,3 +1,55 @@
+* {
+  margin: 0 auto; }
 
+nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px; }
+    nav ul li a {
+      color: #00327F;
+      text-decoration: none; }
+nav .btn1 {
+  border: 2px solid white;
+  background: #4C93FF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer; }
+
+body section {
+  background-color: white; }
+  body section .section1 {
+    background-color: #DBD9D4; }
+body .section2 {
+  margin-top: 20px; }
+  body .section2 .card {
+    background-color: #DBD9D4; }
+    body .section2 .card img {
+      width: 50%; }
+  body .section2 .titulo-section h2 {
+    text-align: center; }
+body .section3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 100vh; }
+  body .section3 h1 {
+    background-color: #4C93FF;
+    width: 405px; }
+  body .section3 .btn1 {
+    border: 2px solid white;
+    background: #4C93FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; }
+
+footer {
+  background-color: #4C93FF; }
+  footer p {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */

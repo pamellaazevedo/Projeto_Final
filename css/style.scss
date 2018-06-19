@@ -1,0 +1,90 @@
+// variaveis 
+
+$cor1:#00327F;
+$cor2:#4C93FF;
+$cor3:#0064FF;
+$cor4:#26497F;
+$cor5:#0050CC;
+$cinza-claro:#DBD9D4;
+$cinza-escuro:#ABA7A1;
+$font-size-title:2.5rem;
+$fonte-titulo:'Montserrat', 'sans-serif';
+// $fonte-padrao:'','';
+
+// Geral 
+* {
+    margin: 0 auto;
+
+}
+nav {
+    ul {
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: 15px;
+            a{
+            color: $cor1;
+            text-decoration: none;
+            }
+        }
+    }
+    .btn1 {
+        border: 2px solid white;
+        background: $cor2;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+body {
+    section {
+        background-color: white;
+        .section1{
+            background-color: $cinza-claro;
+        }
+    }
+    .section2 {
+        margin-top: 20px;
+        .card {
+            background-color: $cinza-claro;
+            img {
+                width: 50%;
+            }
+        }
+        .titulo-section {
+            h2 {
+            text-align: center;
+            }
+        }
+    }
+    .section3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        min-height: 100vh;
+        h1 {
+            background-color: $cor2;
+            width: 405px;
+            // font-family: 'Lato',serif;
+        }
+        .btn1 {
+            border: 2px solid white;
+            background: $cor2;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+footer {
+    background-color: $cor2;
+    p {
+        color: white;
+    }
+}
