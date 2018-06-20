@@ -44,11 +44,16 @@ body {
     section {
         background-color: white;
         .section1{
+            min-height: 100vh;
             background-color: $cinza-claro;
         }
     }
     .section2 {
-        margin-top: 20px;
+        min-height: 100vh;
+        p {
+            text-align: center;
+            margin-top: 50px;
+        }
         .card {
             background-color: $cinza-claro;
             img {
@@ -57,7 +62,8 @@ body {
         }
         .titulo-section {
             h2 {
-            text-align: center;
+                margin-top: 130px;
+                text-align: center;
             }
         }
     }
