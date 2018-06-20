@@ -22,14 +22,19 @@ nav .btn1 {
 body section {
   background-color: white; }
   body section .section1 {
+    min-height: 100vh;
     background-color: #DBD9D4; }
 body .section2 {
-  margin-top: 20px; }
+  min-height: 100vh; }
+  body .section2 p {
+    text-align: center;
+    margin-top: 50px; }
   body .section2 .card {
     background-color: #DBD9D4; }
     body .section2 .card img {
       width: 50%; }
   body .section2 .titulo-section h2 {
+    margin-top: 130px;
     text-align: center; }
 body .section3 {
   display: flex;
