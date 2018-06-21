@@ -1,3 +1,31 @@
+// zoom card
+// function eventoCard (evento) {
+// evento.classList.add("cardzoom")
+// }
+// function cardPadrao (evento) {
+// evento.classList.remove("cardzoom")
+// }
+
+ let listcards = document.getElementsByClassName("card")
+
+    for (var i=0; i < listcards.length; i++){
+        console.log(listcards[i])
+
+        listcards[i].addEventListener("mouseover", 
+    
+        function (){
+            this.classList.add("cardzoom") 
+        }
+    );
+
+    listcards[i].addEventListener("mouseout", 
+    
+    function (){
+        this.classList.remove("cardzoom") 
+    }
+);
+
+    }
 
 // Scrolltop
 $(document).ready(function () {

@@ -36,20 +36,19 @@ body .section2 {
     margin-top: 50px; }
   body .section2 .card {
     background-color: #DBD9D4;
-    width: 200px; }
+    width: 21rem; }
     body .section2 .card img {
       margin-top: 40px;
       width: 25%; }
+  body .section2 .cardzoom {
+    width: 25rem;
+    box-shadow: 0 0 2em #4C93FF; }
   body .section2 .titulo-section h2 {
     margin-top: 100px;
     text-align: center; }
   body .section2 .titulo-section p {
     margin-bottom: 50px;
     width: 340px; }
-  body .section2 .container .card {
-    width: 30%; }
-    body .section2 .container .card:hover {
-      width: 35%; }
 body .section3 {
   display: flex;
   flex-direction: row;
@@ -58,7 +57,11 @@ body .section3 {
   min-height: calc(100vh - 88px); }
   body .section3 h1 {
     background-color: #4C93FF;
-    width: 405px; }
+    width: 405px;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 10px;
+    width: 450px; }
   body .section3 .btn2 {
     border: 2px solid white;
     background: #4C93FF;
@@ -70,7 +73,15 @@ body .section3 {
     body .section3 .img_celular img {
       width: 100%; }
   body .section3 .link_download {
-    display: inline-block; }
+    display: flex;
+    flex-direction: row; }
+    body .section3 .link_download .nav-link {
+      display: flex;
+      flex-direction: column; }
+      body .section3 .link_download .nav-link .btn2 {
+        margin-top: 25px;
+        padding: 10px 10px;
+        width: 200px; }
 
 footer {
   background-color: #4C93FF; }

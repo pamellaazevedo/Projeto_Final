@@ -65,11 +65,15 @@ body {
         }
         .card {
             background-color: $cinza-claro;
-            width: 200px;
+            width: 21rem;
             img {
                 margin-top: 40px;
                 width: 25%;
             }
+        }
+        .cardzoom {
+            width: 25rem;
+            box-shadow: 0 0 2em $cor2; 
         }
         .titulo-section {
             h2 {
@@ -81,18 +85,9 @@ body {
                 width: 340px;
             }
         }
-        .container {
-            .card {
-                wi
-            &:hover {
-                width: 35%;
-
-            }
-            }
-        }
-        }
-
-
+    }
+    
+// section 3
     .section3 {
         display: flex;
         flex-direction: row;
@@ -103,6 +98,10 @@ body {
         h1 {
             background-color: $cor2;
             width: 405px;
+            color: white;
+            border-radius: 4px;
+            padding: 10px 10px;
+            width: 450px;
             // font-family: 'Lato',serif;
             // margin-bottom: 100px;
         }
@@ -120,7 +119,19 @@ body {
             }
         }
         .link_download {
-            display: inline-block;
+            display: flex;
+            flex-direction: row;
+
+            .nav-link {
+                display: flex;
+                flex-direction: column;
+
+                .btn2 {
+                    margin-top: 25px;
+                    padding: 10px 10px;
+                    width: 200px;
+                }
+            }
         }
     }
 }
