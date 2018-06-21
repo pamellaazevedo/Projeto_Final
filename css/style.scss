@@ -16,75 +16,133 @@ $fonte-titulo:'Montserrat', 'sans-serif';
     margin: 0 auto;
 
 }
+
+// Nav
 nav {
     ul {
         margin: 0;
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         li {
             list-style: none;
             display: inline-block;
             padding: 15px;
-            a{
-            color: $cor1;
-            text-decoration: none;
-            }
         }
     }
     .btn1 {
-        border: 2px solid white;
-        background: $cor2;
-        color: white;
-        border-radius: 5px;
+        height: 86px;
+        border: 3px solid $cor2;
+        color: $cor2;
+        border-radius: 12px;
         cursor: pointer;
+        padding: 14px 26px;
+    }
+    .btn1:hover {
+        background-color: $cor2;
+        color: $cinza-claro;
     }
 }
 
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color:$cor2;
+}
+
+// Body
 body {
     section {
         background-color: white;
         .section1{
+            min-height: 88vh;
             background-color: $cinza-claro;
         }
     }
     .section2 {
-        margin-top: 20px;
+        min-height: 100vh;
+        p {
+            text-align: center;
+            margin-top: 50px;
+        }
         .card {
             background-color: $cinza-claro;
+            width: 200px;
             img {
-                width: 50%;
+                margin-top: 40px;
+                width: 25%;
             }
         }
         .titulo-section {
             h2 {
-            text-align: center;
+                margin-top: 100px;
+                text-align: center;
+            }
+            p {
+                margin-bottom: 50px;
+                width: 340px;
             }
         }
-    }
+        .container {
+            .card {
+                wi
+            &:hover {
+                width: 35%;
+
+            }
+            }
+        }
+        }
+
+
     .section3 {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-end;
-        min-height: 100vh;
+        min-height: calc(100vh - 88px);
+        // margin-left: 100px;
         h1 {
             background-color: $cor2;
             width: 405px;
             // font-family: 'Lato',serif;
+            // margin-bottom: 100px;
         }
-        .btn1 {
+        .btn2 {
             border: 2px solid white;
             background: $cor2;
             color: white;
             border-radius: 5px;
             cursor: pointer;
         }
+        .img_celular {
+            width: 40%;
+            img {
+                width: 100%;
+            }
+        }
+        .link_download {
+            display: inline-block;
+        }
     }
 }
+
 
 footer {
     background-color: $cor2;
     p {
         color: white;
+    }
+}
+
+.scrollToTop {
+    position:fixed;
+    bottom: 27px;
+    right: 15px;
+    display:none;
+    padding: 10px;
+    cursor: pointer;
+
+    .scroll-img {
+        display: flex;
+        flex-direction: column;
     }
 }
